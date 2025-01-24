@@ -1,6 +1,6 @@
-package com.app.spring_security.service;
+package com.app.credentials.service;
 
-import com.app.spring_security.model.EmployeeCredentials;
+import com.app.credentials.model.EmployeeCredentials;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

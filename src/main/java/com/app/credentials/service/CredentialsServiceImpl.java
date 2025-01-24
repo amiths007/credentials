@@ -1,9 +1,9 @@
-package com.app.spring_security.service;
+package com.app.credentials.service;
 
 
-import com.app.spring_security.model.EmployeeCredentials;
-import com.app.spring_security.respository.CredentialsRepository;
-import com.app.spring_security.util.EmployeeUtils;
+import com.app.credentials.model.EmployeeCredentials;
+import com.app.credentials.respository.CredentialsRepository;
+import com.app.credentials.util.EmployeeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import org.springframework.util.CollectionUtils;
 import java.util.List;
 
 @Service
-public class CredentialsServiceImpl implements CredentialsService{
+public class CredentialsServiceImpl implements CredentialsService {
 
     private final Logger logger = LoggerFactory.getLogger(CredentialsServiceImpl.class);
 

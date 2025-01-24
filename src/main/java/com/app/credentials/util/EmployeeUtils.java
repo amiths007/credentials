@@ -1,7 +1,7 @@
-package com.app.spring_security.util;
+package com.app.credentials.util;
 
 
-import com.app.spring_security.model.EmployeeCredentials;
+import com.app.credentials.model.EmployeeCredentials;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.app.spring_security.model;
+package com.app.credentials.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

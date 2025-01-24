@@ -1,7 +1,7 @@
-package com.app.spring_security.respository;
+package com.app.credentials.respository;
 
 
-import com.app.spring_security.model.EmployeeCredentials;
+import com.app.credentials.model.EmployeeCredentials;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

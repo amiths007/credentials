@@ -1,8 +1,8 @@
-package com.app.spring_security.controller;
+package com.app.credentials.controller;
 
 
-import com.app.spring_security.model.EmployeeCredentials;
-import com.app.spring_security.service.CredentialsService;
+import com.app.credentials.model.EmployeeCredentials;
+import com.app.credentials.service.CredentialsService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
